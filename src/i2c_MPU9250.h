@@ -31,7 +31,7 @@ class MPU9250 : public i2cSensor
 private:
 
     /** ######### Register-Map ################################################################# */
-    static const uint8_t    I2C_ADDRESS 	                =(0x69);
+    static const uint8_t    I2C_ADDRESS 	                =(0x68);
 
 //MPU9250 Register map
     static const uint8_t    REG_SELF_TEST_X_GYRO            =(0x00);
